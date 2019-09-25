@@ -1,0 +1,17 @@
+test_fruit_img_file
+*.jpg
+*.png
+*.jpeg
+/id_to_label_file
+/label_to_id_file
+/model.h5
+/test_fruit_img_file
+/test_fruits_img_file
+/test_label_file
+/tests_label_file
+/training_fruit_img_file
+/training_label_file
+/Training/
+/test-multiple_fruits/
+/Test/
+/.vscode/
