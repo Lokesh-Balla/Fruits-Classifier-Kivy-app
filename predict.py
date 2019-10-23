@@ -20,6 +20,8 @@ def getData():
     id_to_label = pickle.load(id_to_label_file)
     id_to_label_file.close()
 
-    print(plt.xlabel(id_to_label[np.argmax(predictions)]))
+    res = plt.xlabel(id_to_label[np.argmax(predictions)])
+    print(res)
+    return res.get_text()
 
 # getData()
